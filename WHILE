@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+//TUGAS PRAKTIKUM FAIZA FARHANI 
+int main(){
+	int i = 100;
+	//menampilkan bilangan ganjil genap menggunakan while 100-1000
+	cout<< " masukan angka dari range 100-1000 :"<<endl;
+	cin>> i;
+	while( i <= 1000 ){
+		if( i % 2 == 1 ){
+			cout << i << ": adalah bilangan ganjil "<<endl; i++;
+		}else{
+			cout << i << ": adalah bilangan genap "<<endl; i++;
+		}
+	}
+}
